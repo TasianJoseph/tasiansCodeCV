@@ -83,6 +83,7 @@ for name_in_list, character in enumerate(random_characters, 2):
 # writing results to a txt:
 # creating a function 'potter_names' to put the inputs into a txt:
 
+
 def potter_names(user_choice, random_characters):
     # opening the file in write mode
     with open("potter_names.txt", "w") as file:
@@ -109,4 +110,3 @@ potter_names(character_match, random_characters)
 
 # closing message to the user, prompting them to close or start the programme again
 print(f"\nCome back again soon for another dozen names! \U0001F44B" + "\U0001F3FF\n")
-
