@@ -103,10 +103,10 @@ def potter_names(user_choice, random_characters):
 
     # opening the file in read mode to display all 12 character names
     with open("potter_names.txt", "r") as file:
+        print("\x1B[3m\033[1mYou have saved the following to potter_names.txt:\x1B[23m\033[0m ")
         print(file.read())
 
 # calling the function
 potter_names(character_match, random_characters)
-
 # closing message to the user, prompting them to close or start the programme again
 print(f"\nCome back again soon for another dozen names! \U0001F44B" + "\U0001F3FF\n")
